@@ -1,5 +1,6 @@
 
-function Happening() {
+
+function Editor() {
   return (
     <section className="tweet-editor">
       <img className="avatar" src="src\images\profile-photo.png" alt="profile-photo" />
@@ -23,4 +24,4 @@ function Happening() {
 }
 
 
-export default Happening
+export default Editor;

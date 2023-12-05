@@ -1,4 +1,3 @@
-
 function TheNewYorkTimes() {
   return (
     <section className="tweet">

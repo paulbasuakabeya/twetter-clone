@@ -5,8 +5,8 @@ import TweetsMain from '../components/tweets.jsx';
 import TheNewYorkTimes from '../components/tweetBody.jsx';
 import TweetCommit from '../components/tweetcommit.jsx';
 import TweetCommitTwo from '../components/tweetcommittwo.jsx';
-// import TweetBodyTwo from '../components/tweetbodytwo.jsx'
-import TweetFooter from '../components/tweetfooter.jsx';
+import TweetBodyTwo from '../components/tweetbodytwo.jsx'
+// import TweetFooter from '../components/tweetfooter.jsx';
 
 function Home() {
   return (
@@ -17,8 +17,8 @@ function Home() {
       <TheNewYorkTimes />
       <TweetCommit />
       <TweetCommitTwo />
-      {/* <TweetBodyTwo /> */}
-      <TweetFooter/>
+      <TweetBodyTwo />
+      {/* <TweetFooter/> */}
     </main>
   );
 }
