@@ -233,7 +233,13 @@ body {
     justify-content: center;
     gap: 20px;
 }
-
+.tweet-action:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+/* tweet-action.pointer {
+  
+} */
 .show-more {
     color: #1D9BF0;
 }
@@ -241,4 +247,16 @@ body {
 .footer-accueil {
 
     margin-top: 53rem;
+}
+.cookie{
+   
+   text-align: center;
+}
+.tweet-footer-accueil{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 1.5rem 1rem;
+  /* border-bottom: 1px solid #2F3336; */
 }

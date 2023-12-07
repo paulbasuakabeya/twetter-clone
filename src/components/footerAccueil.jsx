@@ -3,7 +3,7 @@ function FooterAccueil() {
   return (
     <section className="footer-accueil">
       <div className="tweet-editor-buttons">
-        <div className="tweet">
+        <div className="tweet-footer-accueil">
 
           <img src="src/Icons/Icons/Profile-PhotofooterAC.png" alt="avatar" />
           <div>

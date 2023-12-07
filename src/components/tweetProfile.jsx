@@ -74,7 +74,8 @@ function TweetProfile() {
         </div>
         <h3 className="show-more"> Show more</h3>
       </section>
-      <div>
+      <br />
+      <div className="cookie">
         <p className="tweet-title-details">Term of Service Privacy Policy Cookie Policy</p>
         <p className="tweet-title-details">Imprint Ads info More.. @2021 Twitter.Inc.</p>
       </div>
