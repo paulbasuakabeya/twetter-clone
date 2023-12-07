@@ -12,7 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react-javascript": "file:"
+    "react-javascript": "file:",
+    "react-router-dom": "^6.20.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

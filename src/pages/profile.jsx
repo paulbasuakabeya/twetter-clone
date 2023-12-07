@@ -1,10 +1,12 @@
-import TweetProfile from "../components/tweetProfile";
+import HeaderProfile from "../components/profile/profile-header";
+import EditorProfile from "../components/profile/profile-text";
 function Profile() {
-    return (
-        <main className="trends">
-            <TweetProfile />
-
-        </main>
-    )
+  return (
+    <>
+      <HeaderProfile />
+      <EditorProfile />
+      <p>bonjour</p>
+    </>
+  )
 }
 export default Profile;
