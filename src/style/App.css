@@ -234,8 +234,21 @@ body {
     gap: 20px;
 }
 .tweet-action:hover {
-  background-color: blue;
+  color: blue;
   cursor: pointer;
+  fill:blue;
+  background-size: cover;
+  stroke: blue;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  
+}
+.image:hover{
+  fill:blue;
+  background-size: cover;
+  stroke: blue;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 /* tweet-action.pointer {
   
@@ -260,3 +273,4 @@ body {
   padding: 1.5rem 1rem;
   /* border-bottom: 1px solid #2F3336; */
 }
+

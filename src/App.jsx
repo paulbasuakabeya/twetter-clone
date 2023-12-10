@@ -21,6 +21,7 @@ import Rightsdebar from "./right-sidebar/right-sibar.jsx";
 import NavBar from "./sidebar-left/nav-bar/nav-bar.jsx";
 import('./style/reset.css');
 import('./style/App.css');
+import('./style/siderbar.css');
 function App() {
   return (
     <BrowserRouter>

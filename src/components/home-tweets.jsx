@@ -1,41 +1,34 @@
-function TweetHome() {
-      return (
-            <section className="tweets">
-                  <section className="tweet">
-                        <img className="tweet-avatar" src="src\images\tweet-profile-photo.png" alt="tweet-phto" />
-                        <div className="tweet-content">
-                              <div className="tweet-title">
-                                    <h4 className="tweet-title-author">CNN</h4>
-                                    <img src="src\Icons\Icons\Verified.svg" alt="verified" />
-                                    <p className="tweet-title-details">@CNN.7m</p>
-                              </div>
-                              <div className="tweet-text">
-                                    <p >President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis.</p>
-                              </div>
-                              <div className="tweet-actions">
-                                    <div className="tweet-action">
-                                          <img src="src\Icons\Icons\Reply.svg" alt="reply" />
-                                          <p>57</p>
-                                    </div>
-                                    <div className="tweet-action">
-                                          <img src="src\Icons\Icons\Retweet.svg" alt="retweet" />
-                                          <p>144</p>
-                                    </div>
-                                    <div className="tweet-action">
-                                          <img src="src\Icons\Icons\React.svg" alt="react" />
-                                          <p>184</p>
-                                    </div>
-                                    <div className="tweet-action">
-                                          <img src="src\Icons\Icons\Share.svg" alt="share" />
-                                    </div>
-                              </div>
-                        </div>
 
-                  </section>
-            </section>
-      )
+import { useState } from 'react'
+import PropsHomeTitle from "./home-propsTitle"
+import PropsAnimeHome from "./home-props"
+
+function TweetsHome() {
+  const [count, setCount] = useState(57)
+  const [rebour, setRebour] = useState(144)
+  const [coeur, setCoeur] = useState(184)
+  return (
+    <section className="tweets">
+      <section className="tweet">
+        <img className="tweet-avatar" src="src\images\tweet-profile-photo.png" alt="tweet-phto" />
+        <div className="tweet-content">
+          <PropsHomeTitle title="CNN" details="@CNN" times="7m" />
+          <div className="tweet-text">
+            <p >President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis.</p>
+          </div>
+          <div className="tweet-actions">
+            <PropsAnimeHome funct={() => setCount((count) => count + 1)} image="src\Icons\Icons\Reply.svg" alt="apply" increment={count} />
+
+            <PropsAnimeHome funct={() => setRebour((rebour) => rebour + 1)} image="src\Icons\Icons\Retweet.svg" alt="retweet" increment={rebour} />
+
+            <PropsAnimeHome funct={() => setCoeur((coeur) => coeur + 1)} image="src\Icons\Icons\React.svg" alt="react" increment={coeur} />
+            <PropsAnimeHome image="src\Icons\Icons\Share.svg" alt="share" />
+          </div>
+        </div>
+      </section>
+    </section>
+  )
 }
 
 
-export default TweetHome;
-
+export default TweetsHome

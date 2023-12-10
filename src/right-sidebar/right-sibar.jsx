@@ -1,10 +1,10 @@
 import RightsiderPg from "./right siderPg";
 function Rightsdebar() {
-    return (
-        <main className="trends">
-            <RightsiderPg />
+  return (
+    <main className="sidebar">
+      <RightsiderPg />
 
-        </main>
-    )
+    </main>
+  )
 }
 export default Rightsdebar;

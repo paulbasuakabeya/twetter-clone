@@ -518,6 +518,7 @@
   "version" "1.0.0"
   dependencies:
     "react-javascript" "file:"
+    "react-router-dom" "^6.20.1"
 
 "react-refresh@^0.14.0":
   "integrity" "sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ=="
