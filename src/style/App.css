@@ -233,16 +233,11 @@ body {
     justify-content: center;
     gap: 20px;
 }
-.tweet-action:hover {
+/*.tweet-action:hover {
   color: blue;
-  cursor: pointer;
-  
-  
-}
+  cursor: pointer; 
+}*/
 
-/* tweet-action.pointer {
-  
-} */
 .show-more {
     color: #1D9BF0;
 }
