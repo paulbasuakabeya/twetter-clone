@@ -236,20 +236,10 @@ body {
 .tweet-action:hover {
   color: blue;
   cursor: pointer;
-  fill:blue;
-  background-size: cover;
-  stroke: blue;
-  stroke-linecap: round;
-  stroke-linejoin: round;
+  
   
 }
-.image:hover{
-  fill:blue;
-  background-size: cover;
-  stroke: blue;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
+
 /* tweet-action.pointer {
   
 } */
@@ -273,4 +263,37 @@ body {
   padding: 1.5rem 1rem;
   /* border-bottom: 1px solid #2F3336; */
 }
+/*partie hover de edit*/
+.message:hover {
+    color: #7eb41a;
+}
 
+.messageImage:hover {
+    background-color: #7eb41a;
+    border-radius: 50%
+}
+
+.partage:hover {
+    color: #18aecc;
+    border-radius: 50%
+}
+
+.partageImage:hover {
+    background-color: #18aecc;
+    border-radius: 50%
+}
+
+.like:hover {
+    color: #691717;
+    border-radius: 50%
+}
+
+.likeImage:hover {
+    background-color: #691717;
+    border-radius: 45%
+}
+
+.telecharger:hover {
+    color: #23225b;
+    border-radius: 50%
+}
