@@ -1,7 +1,7 @@
 import Squid from "./squid";
 function RightsiderPg() {
   return (
-    <>
+    < >
       <br />
       <section className="search-tweeter">
         <div className="tweet-title">

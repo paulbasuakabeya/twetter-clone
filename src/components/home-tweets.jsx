@@ -17,7 +17,7 @@ function TweetsHome() {
             <p >President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis.</p>
           </div>
           <div className="tweet-actions">
-            <PropsAnimeHome imageHover="messageImage" classColorHover="tweet-action message" funct={() => setCount((count) => count + 1)} image="src\Icons\Icons\Reply.svg" alt="apply" increment={count} />
+            <PropsAnimeHome imageHover="messageImage" classColorHover="tweet-action message" onClick={() => setCount((count) => count + 1)} image="src\Icons\Icons\Reply.svg" alt="apply" increment={count} />
 
             <PropsAnimeHome imageHover="partageImage" classColorHover="tweet-action partage" funct={() => setRebour((rebour) => rebour + 1)} image="src\Icons\Icons\Retweet.svg" alt="retweet" increment={rebour} />
 

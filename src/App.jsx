@@ -20,7 +20,9 @@ function App() {
           <Route path="/profile" element={<Profile />} />
         </Routes>
       </main>
-      <Rightsdebar />
+      <div className="right-sidebar">
+        <Rightsdebar />
+      </div>
 
     </BrowserRouter>)
 }

@@ -15,9 +15,12 @@ function CommitHome() {
           <p>BIG NEWS lol jk still Twitter</p>
         </div>
         <div className="tweet-actions">
-          <PropsHome imageTwo="src\Icons\Icons\Reply.svg" altTwo="reply" incrementTwo="118.7" convertir="K" />
-          <PropsHome imageTwo="src\Icons\Icons\Retweet.svg" altTwo="retweet" incrementTwo="785.7" convertir="K" />
-          <PropsHome imageTwo="src\Icons\Icons\React.svg" altTwo="react" incrementTwo="3.3" convertir="M" />
+          <PropsHome classColorHovertwo="flex items-center gap-5  message" imageHovertwo="messageImage" imageTwo="src\Icons\Icons\Reply.svg" altTwo="reply" incrementTwo="118.7" convertir="K" />
+
+          <PropsHome classColorHovertwo="flex items-center gap-5  partage" imageHovertwo="partageImage" imageTwo="src\Icons\Icons\Retweet.svg" altTwo="retweet" incrementTwo="785.7" convertir="K" />
+
+          <PropsHome classColorHovertwo="flex items-center gap-5  like" imageHovertwo="likeImage" imageTwo="src\Icons\Icons\React.svg" altTwo="react" incrementTwo="3.3" convertir="M" />
+
           <PropsHome imageTwo="src\Icons\Icons\Share.svg" altTwo="share" />
 
         </div>

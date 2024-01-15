@@ -7,7 +7,7 @@ function BodyHome() {
   const [rebour, setRebour] = useState(48)
   const [coeur, setCoeur] = useState(482)
   return (
-    <section className="tweet">
+    <section className="flex justify-start gap-5 pb-6 tweet">
       <div className="tweet-avatar">
         <img src="src\Icons\Tweet-Profile-Phot- icons.svg" alt="avatar" />
       </div>
@@ -20,7 +20,7 @@ function BodyHome() {
           <img src="src\images\tweet-image.png" alt="tweet-image" />
         </div>
         <div className="tweet-actions">
-          <PropsAnimeHome imageHover="messageImage" classColorHover="tweet-action message" funct={() => setCount((count) => count + 1)} image="src\Icons\Icons\Reply.svg" alt="apply" increment={count} />
+          <PropsAnimeHome imageHover="messageImage" classColorHover="tweet-action message" onClick={() => setCount((count) => count + 1)} image="src\Icons\Icons\Reply.svg" alt="apply" increment={count} />
 
           <PropsAnimeHome imageHover="partageImage" classColorHover="tweet-action partage" funct={() => setRebour((rebour) => rebour + 1)} image="src\Icons\Icons\Retweet.svg" alt="retweet" increment={rebour} />
 
