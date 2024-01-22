@@ -1,4 +1,5 @@
 import Squid from "./squid";
+import RightSideProps from "./right-sideProps"
 function RightsiderPg() {
   return (
     < >
@@ -29,48 +30,15 @@ function RightsiderPg() {
       <br />
       <section className="search-tweeter">
         <h3>Who to follow</h3>
-        <div className="tweet-editor-buttons">
-          <div className="tweet">
-            <img src="src\Icons\Tweet-Profile-Phot- icons.svg" alt="avatar" />
-            <div>
-              <div className="tweet-title">
-                <h4 className="tweet-title-author">The New York Times</h4>
-                <img src="src\Icons\Icons\Verified.svg" alt="verified" />
-              </div>
-              <p className="tweet-title-details">@nytimes</p>
-            </div>
-          </div>
-          <button className="button-follow">Follow</button>
-        </div>
+        <RightSideProps imageRight="src\Icons\Tweet-Profile-Phot- icons.svg" titleAthor="The New York Times" titleTail="@nytimes" buttonFollow />
         <br />
-        <div className="tweet-editor-buttons">
-          <div className="tweet">
-            <img className="tweet-avatar" src="src/Icons/Icons/Profile-Photo.png" />
-            <div>
-              <div className="tweet-title">
-                <h4 className="tweet-title-author">CNN</h4>
-                <img src="src\Icons\Icons\Verified.svg" alt="verified" />
-              </div>
-              <p className="tweet-title-details">@CNN</p>
-            </div>
-          </div>
-          <button className="button-follow">Follow</button>
-        </div>
-        <br />
-        <div className="tweet-editor-buttons">
-          <div className="tweet">
 
-            <img src="src\Icons\Icons\image 1.png" alt="avatar" />
-            <div>
-              <div className="tweet-title">
-                <h4 className="tweet-title-author">Twitter</h4>
-                <img src="src\Icons\Icons\Verified.svg" alt="verified" />
-              </div>
-              <p className="tweet-title-details">@Twitter</p>
-            </div>
-          </div>
-          <button className="button-follow">Follow</button>
-        </div>
+        <RightSideProps imageRight="src/Icons/Icons/Profile-Photo.png" titleAthor="CNN" titleTail="@CNN" />
+
+        <br />
+        <RightSideProps imageRight="src\Icons\Icons\image 1.png" titleAthor="Twitter" titleTail="@Twitter" />
+
+
         <h3 className="show-more"> Show more</h3>
       </section>
       <div>

@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Routes, Route, Link, NavLink, Outlet, useParams } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link, NavLink, Outlet, useParams } from "react-router-dom";
 import Home from './pages/home.jsx';
 import Profile from "./pages/profile.jsx";
 import Rightsdebar from "./right-sidebar/right-sibar.jsx";
@@ -9,7 +9,7 @@ import('./style/App.css');
 import('./style/siderbar.css');
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <div className="sidebar">
         < NavBar />
       </div>
@@ -24,7 +24,7 @@ function App() {
         <Rightsdebar />
       </div>
 
-    </BrowserRouter>)
+    </Router>)
 }
 
 export default App;
