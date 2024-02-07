@@ -3,7 +3,7 @@ import RightSideProps from "./right-sideProps"
 function RightsiderPg() {
   return (
     
-    <div className="grid text-center ">
+    <div className=" text-center gap-y-1.5 ">
       
       <section className="bg-gray-700 mx-8 h-8 px-8 rounded-lg mt-2.5">
         <div className="flex justify-start items-start mx-8 gap-2.5" >
@@ -11,7 +11,7 @@ function RightsiderPg() {
           <input className="bg-gray-700 gray-700" placeholder="search tweeter" type="text" />
         </div>
       </section>
-      
+      <br />
       <section className="bg-gray-700 mx-8 px-8 rounded-lg w-5/6">
         <div className="flex items-center justify-between">
           <h4>Trends for you</h4>
@@ -27,7 +27,7 @@ function RightsiderPg() {
         </div>
       </section>
       <br />
-      <section className="search-tweeter">
+      <section className="bg-gray-700 mx-8 px-8 rounded-lg w-5/6">
         <h3>Who to follow</h3>
         <RightSideProps imageRight="src\Icons\Tweet-Profile-Phot- icons.svg" titleAthor="The New York Times" titleTail="@nytimes" buttonFollow />
         <br />
