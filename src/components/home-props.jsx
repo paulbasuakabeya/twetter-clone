@@ -1,15 +1,23 @@
 import { useState } from 'react'
-function PropsAnimeHome({ image, increment, alt, classColorHover, imageHover }) {
-  const [count, setCount] = useState(7)
+function PropsAnimeHome({ image, alt, classColorHover, imageHover }) {
+  const [count, setCount] = useState(27);
+
+  const handleIconClick = () => {
+    setCount(prevCount => prevCount + 1);
+  };
+
+  const handleIconDoubleClick = () => {
+    setCount(prevCount => prevCount - 1);
+  };
   return (
     <>
       <div className="tweet-actions ">
         <div className="tweet-actions">
           <div className={classColorHover}>
-            <div className={imageHover}>
-              <img onClick={() => setCount((count) => count + 1)} src={image} alt={alt} />
+            <div className={imageHover} onClick={handleIconClick} onDoubleClick={handleIconDoubleClick}>
+              <img  src={image} alt={alt} />
             </div>
-            <p>{increment}{ count}</p>
+            <p>{ count}</p>
           </div>
         </div>
       </div>
@@ -18,3 +26,29 @@ function PropsAnimeHome({ image, increment, alt, classColorHover, imageHover }) 
   )
 }
 export default PropsAnimeHome;
+/*
+import React, { useState } from 'react';
+
+function Counter() {
+  const [count, setCount] = useState(0);
+
+  const handleIconClick = () => {
+    setCount(prevCount => prevCount + 1);
+  };
+
+  const handleIconDoubleClick = () => {
+    setCount(prevCount => prevCount - 1);
+  };
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={handleIconClick} onDoubleClick={handleIconDoubleClick}>
+        { Icône à remplacer par votre propre icône }
+        Icon
+      </button>
+    </div>
+  );
+}
+
+export default Counter; */

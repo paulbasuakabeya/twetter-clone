@@ -2,3 +2,9 @@ a{
   color: white;
   text-decoration: none;
 }
+.active{
+  color: rgb(0, 255, 213);
+  background-color: #303234;
+  border-radius: 50px;
+
+}

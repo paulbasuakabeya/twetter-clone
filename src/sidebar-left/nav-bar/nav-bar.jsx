@@ -16,7 +16,7 @@ import Footersiderbar from "../footersiderbar";
 
 function NavBar() {
     return (
-        <>
+        <div className="w-1/3 px-8">
             <nav>
                 <br />
                 <Avatar />
@@ -39,9 +39,9 @@ function NavBar() {
 
                 <br />
             </nav>
-            <button className="button-accueil">Tweet</button>
+            <button className="bg-sky-500 h-8 w-24 rounded-full">Tweet</button>
             <Footersiderbar />
-        </>
+        </div>
     );
 }
 
