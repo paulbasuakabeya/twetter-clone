@@ -4,7 +4,7 @@ function EditorProfile() {
       <img className="avatar" src="src\images\profile-photo.png" alt="profile-photo" />
       <div className="tweet-editor-form">
         <input className="tweet-editor-input" placeholder="What's happening" type="text" />
-        <div className="tweet-editor-buttons">
+        <div className="flex items-center justify-between">
           <div className="tweet-editor-actions">
             <button><img src="src\Icons\Icons\Media.svg" alt="media" /></button>
             <button><img src="src\Icons\Icons\Gif.svg" alt="gif" /></button>
@@ -12,7 +12,7 @@ function EditorProfile() {
             <button><img src="src\Icons\Icons\Emoji.svg" alt="Emoji" /></button>
             <button><img src="src\Icons\Icons\Schedule.svg" alt="schedule" /></button>
           </div>
-          <button className="button">Tweet</button>
+          <button className="bg-sky-500 h-8 w-24 rounded-full">Tweet</button>
 
         </div>
       </div>

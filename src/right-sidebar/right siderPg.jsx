@@ -29,7 +29,7 @@ function RightsiderPg() {
       <br />
       <section className="bg-gray-700 mx-8 px-8 rounded-lg w-5/6">
         <h3>Who to follow</h3>
-        <RightSideProps imageRight="src\Icons\Tweet-Profile-Phot- icons.svg" titleAthor="The New York Times" titleTail="@nytimes" buttonFollow />
+        <RightSideProps imageRight="src\Icons\Tweet-Profile-Phot- icons.svg" titleAthor="New" titleTail="@nytimes" buttonFollow />
         <br />
 
         <RightSideProps imageRight="src/Icons/Icons/Profile-Photo.png" titleAthor="CNN" titleTail="@CNN" />

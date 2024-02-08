@@ -12,7 +12,7 @@ function RightSideProps({ titleAthor, titleTail, imageRight }) {
             <p className="tweet-title-details">{titleTail}</p>
           </div>
         </div>
-        <button className="button-follow">Follow</button>
+        <button className="bg-slate-400 h-8 w-24 rounded-full">Follow</button>
       </div>
     </>
   )
