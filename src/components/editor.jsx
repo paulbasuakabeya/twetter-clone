@@ -7,7 +7,7 @@ function Editor() {
   }
   return (
     <section className="tweet-editor">
-      <img onClick={handleclick} className="avatar" src="src\images\profile-photo.png" alt="profile-photo" />
+      <img className="avatar" src="src\images\profile-photo.png" alt="profile-photo" />
       <div className="tweet-editor-form">
         <input className="tweet-editor-input" placeholder="What's happening" type="text" />
         <div className="tweet-editor-buttons">

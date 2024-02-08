@@ -23,19 +23,19 @@ function NavBar() {
                 <br />
                 <NavLink to="/"><Home /></NavLink>
                 <br />
-                <NavLink to="/products"><Explore /></NavLink>
+                <NavLink to="/explore"><Explore /></NavLink>
                 <br />
-                <NavLink to="/basua"><Messages /></NavLink>
+                <NavLink to="/messages"><Messages /></NavLink>
                 <br />
                 <NavLink to="/home"><Bookmarks /></NavLink>
                 <br />
-                <NavLink to="/fndfjj"><Notifications /></NavLink>
+                <NavLink to="/notifications"><Notifications /></NavLink>
                 <br />
-                <NavLink to="/about"><Lists /></NavLink>
+                <NavLink to="/lists"><Lists /></NavLink>
                 <br />
                 <NavLink to="/profile"><Profile /></NavLink>
                 <br />
-                <NavLink to="/hjgfj"><More /></NavLink>
+                <NavLink to="/more"><More /></NavLink>
 
                 <br />
             </nav>

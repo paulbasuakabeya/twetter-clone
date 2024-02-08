@@ -8,7 +8,7 @@ function RightsiderPg() {
       <section className="bg-gray-700 mx-8 h-8 px-8 rounded-lg mt-2.5">
         <div className="flex justify-start items-start mx-8 gap-2.5" >
           <img className="" src="src/Icons/Icons/Search.svg" alt="" />
-          <input className="bg-gray-700 gray-700" placeholder="search tweeter" type="text" />
+          <input className="bg-gray-700 gray-700 resize-none border-none outline-none" placeholder="search tweeter" type="text" />
         </div>
       </section>
       <br />
@@ -41,8 +41,8 @@ function RightsiderPg() {
         <h3 className="show-more"> Show more</h3>
       </section>
       <div>
-        <p className="tweet-title-details">Term of Service Privacy Policy Cookie Policy</p>
-        <p className="tweet-title-details">Imprint Ads info More.. @2021 Twitter.Inc.</p>
+        <p className="text-gray-500">Term of Service Privacy Policy Cookie Policy</p>
+        <p className="text-gray-500">Imprint Ads info More.. @2021 Twitter.Inc.</p>
       </div>
       </div>
     

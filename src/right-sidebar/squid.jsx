@@ -2,7 +2,7 @@ function Squid() {
     return (
         <>
             <section>
-                <div className="tweet-editor-buttons">
+                <div className="flex items-center justify-between">
                     <p className="tweet-title-details">trending in turkey</p>
                     <p>...</p>
                 </div>
