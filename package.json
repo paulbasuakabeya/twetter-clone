@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "json-server": "^1.0.0-alpha.23",
     "react-javascript": "file:",
     "react-router-dom": "^6.20.1"
   },
